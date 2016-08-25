@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9250FBB1D6F51750075B1C0 /* 速度表.png in Resources */ = {isa = PBXBuildFile; fileRef = E9250FBA1D6F51750075B1C0 /* 速度表.png */; };
 		E972F3F41D6F4C880098147D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F3F31D6F4C880098147D /* main.m */; };
 		E972F3F71D6F4C880098147D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F3F61D6F4C880098147D /* AppDelegate.m */; };
 		E972F3FA1D6F4C880098147D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F3F91D6F4C880098147D /* ViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9250FBA1D6F51750075B1C0 /* 速度表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "速度表.png"; sourceTree = "<group>"; };
 		E972F3EF1D6F4C880098147D /* 速度表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "速度表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E972F3F31D6F4C880098147D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E972F3F51D6F4C880098147D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		E972F3F11D6F4C880098147D /* 速度表 */ = {
 			isa = PBXGroup;
 			children = (
+				E9250FBA1D6F51750075B1C0 /* 速度表.png */,
 				E972F4251D6F4D160098147D /* LJInstrumentView.h */,
 				E972F4261D6F4D160098147D /* LJInstrumentView.m */,
 				E972F4281D6F4E570098147D /* UICountingLabel.h */,
@@ -256,6 +259,7 @@
 				E972F4021D6F4C880098147D /* LaunchScreen.storyboard in Resources */,
 				E972F3FF1D6F4C880098147D /* Assets.xcassets in Resources */,
 				E972F3FD1D6F4C880098147D /* Main.storyboard in Resources */,
+				E9250FBB1D6F51750075B1C0 /* 速度表.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +512,7 @@
 				E972F41E1D6F4C890098147D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E972F41F1D6F4C890098147D /* Build configuration list for PBXNativeTarget "速度表Tests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +521,7 @@
 				E972F4211D6F4C890098147D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E972F4221D6F4C890098147D /* Build configuration list for PBXNativeTarget "速度表UITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +530,7 @@
 				E972F4241D6F4C890098147D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
