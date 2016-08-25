@@ -15,6 +15,8 @@
 		E972F4021D6F4C880098147D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E972F4001D6F4C880098147D /* LaunchScreen.storyboard */; };
 		E972F40D1D6F4C890098147D /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F40C1D6F4C890098147D /* ___Tests.m */; };
 		E972F4181D6F4C890098147D /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F4171D6F4C890098147D /* ___UITests.m */; };
+		E972F4271D6F4D160098147D /* LJInstrumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F4261D6F4D160098147D /* LJInstrumentView.m */; };
+		E972F42A1D6F4E570098147D /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F4291D6F4E570098147D /* UICountingLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E972F4131D6F4C890098147D /* 速度表UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "速度表UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E972F4171D6F4C890098147D /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		E972F4191D6F4C890098147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E972F4251D6F4D160098147D /* LJInstrumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJInstrumentView.h; sourceTree = "<group>"; };
+		E972F4261D6F4D160098147D /* LJInstrumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJInstrumentView.m; sourceTree = "<group>"; };
+		E972F4281D6F4E570098147D /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		E972F4291D6F4E570098147D /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		E972F3F11D6F4C880098147D /* 速度表 */ = {
 			isa = PBXGroup;
 			children = (
+				E972F4251D6F4D160098147D /* LJInstrumentView.h */,
+				E972F4261D6F4D160098147D /* LJInstrumentView.m */,
+				E972F4281D6F4E570098147D /* UICountingLabel.h */,
+				E972F4291D6F4E570098147D /* UICountingLabel.m */,
 				E972F3F51D6F4C880098147D /* AppDelegate.h */,
 				E972F3F61D6F4C880098147D /* AppDelegate.m */,
 				E972F3F81D6F4C880098147D /* ViewController.h */,
@@ -272,7 +282,9 @@
 			files = (
 				E972F3FA1D6F4C880098147D /* ViewController.m in Sources */,
 				E972F3F71D6F4C880098147D /* AppDelegate.m in Sources */,
+				E972F42A1D6F4E570098147D /* UICountingLabel.m in Sources */,
 				E972F3F41D6F4C880098147D /* main.m in Sources */,
+				E972F4271D6F4D160098147D /* LJInstrumentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
