@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E972F3F41D6F4C880098147D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F3F31D6F4C880098147D /* main.m */; };
+		E972F3F71D6F4C880098147D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F3F61D6F4C880098147D /* AppDelegate.m */; };
+		E972F3FA1D6F4C880098147D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F3F91D6F4C880098147D /* ViewController.m */; };
+		E972F3FD1D6F4C880098147D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E972F3FB1D6F4C880098147D /* Main.storyboard */; };
+		E972F3FF1D6F4C880098147D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E972F3FE1D6F4C880098147D /* Assets.xcassets */; };
+		E972F4021D6F4C880098147D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E972F4001D6F4C880098147D /* LaunchScreen.storyboard */; };
+		E972F40D1D6F4C890098147D /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F40C1D6F4C890098147D /* ___Tests.m */; };
+		E972F4181D6F4C890098147D /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E972F4171D6F4C890098147D /* ___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E972F4091D6F4C890098147D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E972F3E71D6F4C880098147D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E972F3EE1D6F4C880098147D;
+			remoteInfo = "速度表";
+		};
+		E972F4141D6F4C890098147D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E972F3E71D6F4C880098147D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E972F3EE1D6F4C880098147D;
+			remoteInfo = "速度表";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E972F3EF1D6F4C880098147D /* 速度表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "速度表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E972F3F31D6F4C880098147D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E972F3F51D6F4C880098147D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E972F3F61D6F4C880098147D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E972F3F81D6F4C880098147D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E972F3F91D6F4C880098147D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E972F3FC1D6F4C880098147D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E972F3FE1D6F4C880098147D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E972F4011D6F4C880098147D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E972F4031D6F4C880098147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E972F4081D6F4C890098147D /* 速度表Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "速度表Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E972F40C1D6F4C890098147D /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		E972F40E1D6F4C890098147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E972F4131D6F4C890098147D /* 速度表UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "速度表UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E972F4171D6F4C890098147D /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		E972F4191D6F4C890098147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E972F3EC1D6F4C880098147D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E972F4051D6F4C890098147D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E972F4101D6F4C890098147D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E972F3E61D6F4C880098147D = {
+			isa = PBXGroup;
+			children = (
+				E972F3F11D6F4C880098147D /* 速度表 */,
+				E972F40B1D6F4C890098147D /* 速度表Tests */,
+				E972F4161D6F4C890098147D /* 速度表UITests */,
+				E972F3F01D6F4C880098147D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E972F3F01D6F4C880098147D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E972F3EF1D6F4C880098147D /* 速度表.app */,
+				E972F4081D6F4C890098147D /* 速度表Tests.xctest */,
+				E972F4131D6F4C890098147D /* 速度表UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E972F3F11D6F4C880098147D /* 速度表 */ = {
+			isa = PBXGroup;
+			children = (
+				E972F3F51D6F4C880098147D /* AppDelegate.h */,
+				E972F3F61D6F4C880098147D /* AppDelegate.m */,
+				E972F3F81D6F4C880098147D /* ViewController.h */,
+				E972F3F91D6F4C880098147D /* ViewController.m */,
+				E972F3FB1D6F4C880098147D /* Main.storyboard */,
+				E972F3FE1D6F4C880098147D /* Assets.xcassets */,
+				E972F4001D6F4C880098147D /* LaunchScreen.storyboard */,
+				E972F4031D6F4C880098147D /* Info.plist */,
+				E972F3F21D6F4C880098147D /* Supporting Files */,
+			);
+			path = "速度表";
+			sourceTree = "<group>";
+		};
+		E972F3F21D6F4C880098147D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E972F3F31D6F4C880098147D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E972F40B1D6F4C890098147D /* 速度表Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E972F40C1D6F4C890098147D /* ___Tests.m */,
+				E972F40E1D6F4C890098147D /* Info.plist */,
+			);
+			path = "速度表Tests";
+			sourceTree = "<group>";
+		};
+		E972F4161D6F4C890098147D /* 速度表UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E972F4171D6F4C890098147D /* ___UITests.m */,
+				E972F4191D6F4C890098147D /* Info.plist */,
+			);
+			path = "速度表UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E972F3EE1D6F4C880098147D /* 速度表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E972F41C1D6F4C890098147D /* Build configuration list for PBXNativeTarget "速度表" */;
+			buildPhases = (
+				E972F3EB1D6F4C880098147D /* Sources */,
+				E972F3EC1D6F4C880098147D /* Frameworks */,
+				E972F3ED1D6F4C880098147D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "速度表";
+			productName = "速度表";
+			productReference = E972F3EF1D6F4C880098147D /* 速度表.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E972F4071D6F4C890098147D /* 速度表Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E972F41F1D6F4C890098147D /* Build configuration list for PBXNativeTarget "速度表Tests" */;
+			buildPhases = (
+				E972F4041D6F4C890098147D /* Sources */,
+				E972F4051D6F4C890098147D /* Frameworks */,
+				E972F4061D6F4C890098147D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E972F40A1D6F4C890098147D /* PBXTargetDependency */,
+			);
+			name = "速度表Tests";
+			productName = "速度表Tests";
+			productReference = E972F4081D6F4C890098147D /* 速度表Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E972F4121D6F4C890098147D /* 速度表UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E972F4221D6F4C890098147D /* Build configuration list for PBXNativeTarget "速度表UITests" */;
+			buildPhases = (
+				E972F40F1D6F4C890098147D /* Sources */,
+				E972F4101D6F4C890098147D /* Frameworks */,
+				E972F4111D6F4C890098147D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E972F4151D6F4C890098147D /* PBXTargetDependency */,
+			);
+			name = "速度表UITests";
+			productName = "速度表UITests";
+			productReference = E972F4131D6F4C890098147D /* 速度表UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E972F3E71D6F4C880098147D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Lu;
+				TargetAttributes = {
+					E972F3EE1D6F4C880098147D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					E972F4071D6F4C890098147D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E972F3EE1D6F4C880098147D;
+					};
+					E972F4121D6F4C890098147D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E972F3EE1D6F4C880098147D;
+					};
+				};
+			};
+			buildConfigurationList = E972F3EA1D6F4C880098147D /* Build configuration list for PBXProject "速度表" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E972F3E61D6F4C880098147D;
+			productRefGroup = E972F3F01D6F4C880098147D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E972F3EE1D6F4C880098147D /* 速度表 */,
+				E972F4071D6F4C890098147D /* 速度表Tests */,
+				E972F4121D6F4C890098147D /* 速度表UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E972F3ED1D6F4C880098147D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E972F4021D6F4C880098147D /* LaunchScreen.storyboard in Resources */,
+				E972F3FF1D6F4C880098147D /* Assets.xcassets in Resources */,
+				E972F3FD1D6F4C880098147D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E972F4061D6F4C890098147D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E972F4111D6F4C890098147D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E972F3EB1D6F4C880098147D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E972F3FA1D6F4C880098147D /* ViewController.m in Sources */,
+				E972F3F71D6F4C880098147D /* AppDelegate.m in Sources */,
+				E972F3F41D6F4C880098147D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E972F4041D6F4C890098147D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E972F40D1D6F4C890098147D /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E972F40F1D6F4C890098147D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E972F4181D6F4C890098147D /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E972F40A1D6F4C890098147D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E972F3EE1D6F4C880098147D /* 速度表 */;
+			targetProxy = E972F4091D6F4C890098147D /* PBXContainerItemProxy */;
+		};
+		E972F4151D6F4C890098147D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E972F3EE1D6F4C880098147D /* 速度表 */;
+			targetProxy = E972F4141D6F4C890098147D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E972F3FB1D6F4C880098147D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E972F3FC1D6F4C880098147D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E972F4001D6F4C880098147D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E972F4011D6F4C880098147D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E972F41A1D6F4C890098147D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E972F41B1D6F4C890098147D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E972F41D1D6F4C890098147D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "速度表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LuJie.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E972F41E1D6F4C890098147D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "速度表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LuJie.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E972F4201D6F4C890098147D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "速度表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LuJie.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/速度表.app/速度表";
+			};
+			name = Debug;
+		};
+		E972F4211D6F4C890098147D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "速度表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LuJie.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/速度表.app/速度表";
+			};
+			name = Release;
+		};
+		E972F4231D6F4C890098147D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "速度表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LuJie.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "速度表";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E972F4241D6F4C890098147D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "速度表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LuJie.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "速度表";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E972F3EA1D6F4C880098147D /* Build configuration list for PBXProject "速度表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E972F41A1D6F4C890098147D /* Debug */,
+				E972F41B1D6F4C890098147D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E972F41C1D6F4C890098147D /* Build configuration list for PBXNativeTarget "速度表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E972F41D1D6F4C890098147D /* Debug */,
+				E972F41E1D6F4C890098147D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E972F41F1D6F4C890098147D /* Build configuration list for PBXNativeTarget "速度表Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E972F4201D6F4C890098147D /* Debug */,
+				E972F4211D6F4C890098147D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E972F4221D6F4C890098147D /* Build configuration list for PBXNativeTarget "速度表UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E972F4231D6F4C890098147D /* Debug */,
+				E972F4241D6F4C890098147D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E972F3E71D6F4C880098147D /* Project object */;
+}
