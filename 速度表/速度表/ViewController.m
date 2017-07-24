@@ -27,7 +27,7 @@
     //弧线
     [_checkMeter drawArcWithStartAngle:-M_PI*5/4 endAngle:M_PI/4 lineWidth:10.0f fillColor:[UIColor clearColor] strokeColor:[UIColor grayColor]];
     // 计时器
-    _checkMeter.speedValue = 92;
+    _checkMeter.speedValue = 87;
     [NSTimer scheduledTimerWithTimeInterval:_checkMeter.timeInterval target:_checkMeter selector:@selector(runSpeedProgress) userInfo:nil repeats:NO];
     //刻度
     [_checkMeter drawScaleWithDivide:50 andRemainder:5 strokeColor:[UIColor cyanColor] filleColor:[UIColor clearColor]scaleLineNormalWidth:5 scaleLineBigWidth:10];
