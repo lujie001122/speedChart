@@ -5,6 +5,11 @@
 //  Created by 卢杰 on 16/8/25.
 //  Copyright © 2016年 Lu. All rights reserved.
 //
+#define NSLog(format, ...)   fprintf(stderr, "<%s : %d> %s\n",\
+[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String],  \
+__LINE__, __func__);                                                        \
+(NSLog)((format), ##__VA_ARGS__);                                           \
+fprintf(stderr, "\n ------------------\n/ Hello David Day! \\\n\\ my Macro Log ~   /\n ------------------\n            \\\n             \\   ^__^\n                 (OO)  _________\n                 (__)\\          )\\/\\\n                     ||_______ _)\n                     ||       W |\n                     ww        ww\n");
 
 #import "ViewController.h"
 #import "LJInstrumentView.h"
@@ -23,6 +28,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"WoW,cow:%s",__func__);
     self.checkMeter.timeInterval=0.3;
     //弧线
     [_checkMeter drawArcWithStartAngle:-M_PI*5/4 endAngle:M_PI/4 lineWidth:10.0f fillColor:[UIColor clearColor] strokeColor:[UIColor grayColor]];
